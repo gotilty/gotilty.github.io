@@ -6,7 +6,7 @@ lodash inspired utility library for go
 
 
 
-<img src="images/gotil.png" width="250" height="100" style="display: block; margin: 0 auto">
+<img src="https://github.com/gotilty/gotil/blob/master/images/gotil.png" width="250" height="100" style="display: block; margin: 0 auto">
 
 
 ------------
