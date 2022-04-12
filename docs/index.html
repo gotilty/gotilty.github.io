@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,6 +11,8 @@
   <meta name="description" content="lodash inspired utility library for go.">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
   <style>
     nav.app-nav li ul {
       min-width: 100px;
@@ -35,9 +36,17 @@
       transform: translate(-50%, -50%);
     }
 
+    body #sub-title {
+      position: fixed;
+      top: 30%;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+    }
+
     body #button {
       position: fixed;
-      top: 60%;
+      bottom: 20%;
       left: 50%;
       /* bring your own prefixes */
       transform: translate(-50%, -50%);
@@ -89,7 +98,7 @@
 </head>
 
 <body>
-  <p>
+  <!-- <p>
   <p>
   <div id="title">
     <h1>gotil</h1>
@@ -99,20 +108,37 @@
     </p>
   </div>
 thesitewizard.com
-  <a href="https://gotilty.github.io/gotil" target="_blank"><div id="button"><button class="button-36" role="button">GOtil v1.0</div></a>
+  <a href="https://gotilty.github.io/gotil" target="_blank"><div id="button"><button class="button-36" role="button">GOtil v1.0</div></a> -->
 
-  <script src="vendor/prism-og.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLP2E6SC1P"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-SLP2E6SC1P');
-  </script>
+    <div id="landing-pange-wrapper"class="">
+        <div id="background">
+            <div id="title" class="row">
+                <h1>gotil</h1>
+            </div>
+            <div id="sub-title" class="row text-center mt-4">
+                <h2>Next Generation Tools for Golang</h2>
+            </div>
+            <div id="gotil-btn">
+                <a href="https://gotilty.github.io/gotil" target="_blank"><div id="button"><button class="button-36" role="button">GOtil v1.0</div></a>
+            </div>
+        </div>
+    </div>
 </body>
+
+
+<script src="vendor/prism-og.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SLP2E6SC1P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-SLP2E6SC1P');
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </html>
