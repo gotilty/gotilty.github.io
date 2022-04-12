@@ -6,29 +6,110 @@
   <title>Gotil - Next Generation Golang Utility Tool</title>
   <link rel="icon" href="images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anek Odia">
   <meta name="google-site-verification" content="HoY05RzDdk2O5jGhtBzI2NcfjXP4lJAgEUpcaxAd8To" />
   <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,gotil,github-pages">
   <meta name="description" content="lodash inspired utility library for go.">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"  type="text/css" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" type="text/css" />
   <style>
     nav.app-nav li ul {
       min-width: 100px;
     }
+
+    body {
+      background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 212, 255, 0.20211834733893552) 100%), url("https://raw.githubusercontent.com/MariaLetta/free-gophers-pack/master/characters/svg/47.svg"), url("gotilty.gif");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      font-family: "Anek Odia", sans-serif;
+    }
+
+    body #title {
+      position: fixed;
+      top: 20%;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+    }
+
+    body #button {
+      position: fixed;
+      top: 60%;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+    }
+
+    h1 {
+      color: white;
+      font-size: 500% !important;
+    }
+
+    h2 {
+      color: white;
+    }
+
+    .button-36 {
+      background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      height: 4rem;
+      padding: 0 1.6rem;
+      text-align: center;
+      text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+      transition: all .5s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    .button-36:hover {
+      box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+      transition-duration: .1s;
+    }
+
+    @media (min-width: 768px) {
+      .button-36 {
+        padding: 0 2.6rem;
+      }
+    }
+    
   </style>
 
 </head>
 
 <body>
-  <div id="app">Next Generation Golang Utility Tool</div>
+  <p>
+  <p>
+  <div id="title">
+    <h1>gotil</h1>
+    </p>
+    <p>
+    <h2>Next Generation Tools for Golang</h2>
+    </p>
+  </div>
+thesitewizard.com
+  <a href="https://gotilty.github.io/gotil" target="_blank"><div id="button"><button class="button-36" role="button">GOtil v1.0</div></a>
 
   <script src="vendor/prism-og.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLP2E6SC1P"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-SLP2E6SC1P');
   </script>
